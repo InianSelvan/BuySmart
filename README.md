@@ -1,2 +1,2 @@
 # BuySmart
-AI based product comparision websit
+AI based product comparision website
