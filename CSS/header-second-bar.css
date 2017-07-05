@@ -1,0 +1,98 @@
+/* Second Bar */
+
+.header-user-dropdown .header-second-bar {
+	background-image: url(../images/white-wood);
+	box-shadow: 1px 3px 3px 0 rgba(0, 0, 0, 0.05);
+	padding: 20px 40px;
+}
+
+.header-user-dropdown .header-second-bar h2 {
+	line-height: 20px;
+	margin: 0;
+	float: left;
+}
+
+.header-user-dropdown .header-second-bar h2 a {
+	font-size: 16px;
+	color: #4e5359;
+	text-decoration: none;
+}
+
+.header-user-dropdown .header-second-bar nav {
+	text-align: right;
+	line-height: 20px;
+	font-size: 16px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.header-user-dropdown .header-second-bar nav a {
+	display: inline-block;
+	color: #4e5359;
+	text-decoration: none;
+}
+
+.header-user-dropdown .header-second-bar nav i.fa {
+	color: #A9B7BF;
+	margin: 0 4px 0 15px;
+}
+
+
+/*	Making the header responsive. Remove these styles, if
+	you don't need the header to work on mobile devices. */
+
+@media all and (max-width: 800px) {
+
+	.header-user-dropdown .header-second-bar nav{
+		font-size:14px;
+	}
+
+}
+
+@media all and (max-width: 600px) {
+	
+	.header-user-dropdown .header-first-bar{
+		padding:20px 0;
+	}
+
+	.header-user-dropdown .header-first-bar h1 {
+		float: none;
+		margin: -8px 0 2px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 1;
+	}
+
+	.header-user-dropdown .header-first-bar nav {
+		margin: 0;
+		float: none;
+		font-size:13px;
+	}
+
+	.header-user-dropdown .header-first-bar nav a.selected {
+		padding: 5px 8px;
+	}
+
+	.header-user-dropdown .header-second-bar{
+		padding: 20px 0;
+	}
+
+	.header-user-dropdown .header-second-bar h2{
+		float:none;
+		margin: 0 0 12px;
+	}
+
+	.header-user-dropdown .header-second-bar nav{
+		text-align: center;
+	}
+
+	.header-user-dropdown .header-second-bar nav a{
+		display: block;
+		padding: 8px;
+	}
+
+	.header-user-dropdown .header-second-bar nav i.fa{
+		margin-left:0;
+	}
+}
